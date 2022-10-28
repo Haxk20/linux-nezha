@@ -1,0 +1,17 @@
+[submodule "opensbi"]
+	path = opensbi
+	url = https://github.com/riscv-software-src/opensbi.git
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/smaeul/u-boot.git
+	branch = d1-wip
+[submodule "sun20i_d1_spl"]
+	path = sun20i_d1_spl
+	url = https://github.com/smaeul/sun20i_d1_spl.git
+[submodule "riscv-gnu-toolchain"]
+	path = riscv-gnu-toolchain
+	url = https://github.com/riscv-collab/riscv-gnu-toolchain.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/Haxk20/linux.git
+	branch = d1-nezha
