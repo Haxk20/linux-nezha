@@ -42,7 +42,7 @@ echo "Generate u-boot table of contents"
 
 echo "Build Linux kernel"
 pushd linux
-make ARCH=riscv CROSS_COMPILE=$toolchain defconfig
+make ARCH=riscv CROSS_COMPILE=$toolchain nezha_defconfig
 make -j16 ARCH=riscv CROSS_COMPILE=$toolchain
 pushd
 
